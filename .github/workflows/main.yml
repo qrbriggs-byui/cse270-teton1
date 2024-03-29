@@ -47,6 +47,7 @@ jobs:
       with:
         directory: .
         port: 5500
+        index-files: ['index.html']
     - name: Run tests
       run: |
         pytest
